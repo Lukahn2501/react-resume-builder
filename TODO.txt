@@ -1,0 +1,29 @@
+Data Organisation
+    Resume
+        Administrative
+            first                   {string}
+            last                    {string}
+            birthdate               {string}
+            age                     {number}
+            address                  {string}
+            driving                 {boolean}
+            email                   {string}
+            phone                   {string}
+        Education
+            startYear               {number}
+            endYear                 {number}
+            place                   {string}
+            title                   {string}
+            diploma                 {boolean}
+            description             {string}
+        Experiences
+            startYear               {number}
+            endYear                 {number}
+            place                   {string}
+            title                   {string}
+            description             {string}
+        Skills
+            category                {string}
+            skill                   {string}
+            percentage              {number}
+

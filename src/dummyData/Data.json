@@ -1,0 +1,14 @@
+{
+    "Resume":{
+        "Administrative":{
+            "first":"Kevin",
+            "last":"Roy",
+            "birthdate":"07/10/1990",
+            "age":"28",
+            "address":"7 rue Dr. Jean Baptiste Morlot - 21000 Dijon",
+            "email":"kevin.roy.ic@gmail.com",
+            "driving":"true",
+            "phone":"06 08 33 81 88"
+        }
+    }
+}
