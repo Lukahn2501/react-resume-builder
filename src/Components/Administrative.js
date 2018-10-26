@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Administrative extends Component{
 
     DrivingLicence(){
-        if(this.props.driving === 'true'){
+        if(this.props.data.driving === 'true'){
             return(
                 "Driving licence: Yes"
             )
@@ -17,13 +17,13 @@ class Administrative extends Component{
     render(){
         return(
             <div>
-                <h1>{this.props.first} {this.props.last}</h1>
-                <p>{this.props.birthdate}</p>
-                <p>{this.props.age}yo.</p>  
+                <h1>{this.props.data.first} {this.props.data.last}</h1>
+                <p>{this.props.data.birthdate}</p>
+                <p>{this.props.data.age}yo.</p>  
                 <p>{this.DrivingLicence()}</p>
-                <p>{this.props.address}</p>
-                <p>{this.props.email}</p>
-                <p>{this.props.phone}</p>
+                <p>{this.props.data.address}</p>
+                <p>{this.props.data.email}</p>
+                <p>{this.props.data.phone}</p>
             </div>
         )
     }
